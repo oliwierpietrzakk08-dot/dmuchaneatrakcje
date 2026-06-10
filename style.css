@@ -287,6 +287,18 @@ a {
   font-weight: 600;
 }
 
+.reviews__empty {
+  padding: 0 var(--container-padding);
+  text-align: center;
+}
+
+.reviews__empty p {
+  color: var(--color-text-muted);
+  font-size: 1.0625rem;
+  max-width: 34ch;
+  margin: 0 auto;
+}
+
 /* Contact */
 .contact {
   background: #000000;
@@ -459,6 +471,16 @@ a {
     align-items: flex-end;
     justify-content: space-between;
     margin-bottom: 3rem;
+  }
+
+  .reviews__empty {
+    padding: 0;
+    text-align: left;
+  }
+
+  .reviews__empty p {
+    margin: 0;
+    max-width: 40ch;
   }
 
   .reviews__rating {
