@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dmuchane Atrakcje — Wynajem dmuchanych zamków i atrakcji</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <a href="#" class="hero__logo">
+        <img src="images/logo.png" alt="Dmuchane Atrakcje" width="1254" height="1254">
+      </a>
+      <div class="hero__media">
+        <picture>
+          <source media="(min-width: 900px)" srcset="images/desktop/heromobile.png">
+          <img
+            src="images/mobile/heromobile.png"
+            alt="Dmuchana zjeżdżalnia z motywem lwa ustawiona na trawniku o zachodzie słońca"
+            width="1122"
+            height="1402"
+            fetchpriority="high"
+          >
+        </picture>
+      </div>
+      <div class="hero__content">
+        <h1 class="hero__title">Zabawa,<br>która robi<br>wrażenie.</h1>
+        <p class="hero__subtitle">Wynajem dmuchanych zamków i atrakcji na urodziny, festyny i eventy firmowe.</p>
+        <div class="hero__actions">
+          <a href="#oferta" class="btn">Zobacz ofertę</a>
+          <a href="tel:+48510937444" class="btn btn--secondary">Zadzwoń</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="oferta" class="offer">
+      <div class="offer__intro">
+        <h2 class="section-title">Co oferujemy</h2>
+        <p class="section-subtitle">Wybierz atrakcję idealną na Twoją imprezę.</p>
+      </div>
+      <div class="offer__grid">
+        <article class="offer-card">
+          <div class="offer-card__media">
+            <picture>
+              <source media="(min-width: 900px)" srcset="images/desktop/oferta-zamek.png">
+              <img src="images/mobile/oferta-zamek.png" alt="Dmuchany zamek ze zjeżdżalnią oraz duża zjeżdżalnia z motywem zwierząt" width="1448" height="1086" loading="lazy">
+            </picture>
+          </div>
+          <div class="offer-card__body">
+            <h3>Zamek Jungle</h3>
+            <p>Tropikalny zamek z wysoką zjeżdżalnią i lwem na szczycie — hit każdej imprezy.</p>
+          </div>
+        </article>
+        <article class="offer-card offer-card--tor">
+          <div class="offer-card__media">
+            <picture>
+              <source media="(min-width: 900px)" srcset="images/desktop/oferta-tor.png">
+              <img src="images/mobile/oferta-tor.png" alt="Kolorowa dmuchana zjeżdżalnia z łukiem i misiem" width="1110" height="1417" loading="lazy">
+            </picture>
+          </div>
+          <div class="offer-card__body">
+            <h3>Zamek Miś</h3>
+            <p>Kolorowy zamek ze zjeżdżalnią i misiem — uśmiech gwarantowany dla najmłodszych.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="opinie" class="reviews">
+      <div class="reviews__header">
+        <h2 class="section-title">Opinie klientów</h2>
+        <div class="reviews__rating">
+          <span class="reviews__stars" aria-hidden="true">★★★★★</span>
+          <span class="reviews__score">4.9/5 <span class="reviews__count">w Google</span></span>
+        </div>
+      </div>
+      <div class="reviews__grid">
+        <figure class="review-card">
+          <blockquote>„Zamek dotarł na czas, czysty i idealnie napompowany. Dzieciaki bawiły się świetnie przez całą imprezę!”</blockquote>
+          <figcaption>Kasia, Piaseczno</figcaption>
+        </figure>
+        <figure class="review-card">
+          <blockquote>„Profesjonalna obsługa od pierwszego telefonu. Montaż i demontaż bez najmniejszego problemu.”</blockquote>
+          <figcaption>Marek, Konstancin</figcaption>
+        </figure>
+        <figure class="review-card">
+          <blockquote>„Polecam każdemu, kto organizuje urodziny — atrakcja broni się sama, dzieci nie chciały wracać do domu.”</blockquote>
+          <figcaption>Ania, Warszawa</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer id="kontakt" class="contact">
+    <div class="contact__inner">
+      <div class="contact__intro">
+        <h2 class="section-title section-title--light">Zarezerwuj termin</h2>
+        <p class="contact__lead">Skontaktuj się z nami telefonicznie lub mailowo — odpowiadamy szybko.</p>
+        <p class="contact__address">Łowicz i okolice (do 60 km)</p>
+      </div>
+      <div class="contact__details">
+        <a href="tel:+48510937444" class="contact__link">+48 510 937 444</a>
+        <a href="mailto:kacperwozniak0902@onet.pl" class="contact__link">kacperwozniak0902@onet.pl</a>
+      </div>
+    </div>
+    <div class="contact__bottom">
+      <span>© 2026 Dmuchane Atrakcje</span>
+    </div>
+  </footer>
+</body>
+</html>
