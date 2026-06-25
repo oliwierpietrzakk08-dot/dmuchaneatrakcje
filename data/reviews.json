@@ -1,0 +1,75 @@
+{
+  "_jak_dodac_opinie": "INSTRUKCJA DLA WŁAŚCICIELA: aby dodać nową opinię, wklej poniżej do tablicy 'reviews' nowy obiekt w formacie: { \"author\": \"Imię lub nick\", \"avatar\": \"\", \"rating\": 5, \"text\": \"Treść opinii\", \"date\": \"RRRR-MM-DD\" }. Pole 'avatar' zostaw jako pusty string \"\", jeśli klient nie ma zdjęcia — wtedy na karcie pojawią się jego inicjały na kolorowym tle. Pole 'rating' to liczba całkowita od 1 do 5. Najnowsze opinie najlepiej dodawać na początku tablicy. Pamiętaj o przecinku po poprzednim wpisie (oprócz ostatniego elementu tablicy).",
+  "reviews": [
+    {
+      "author": "Natalia Wysotyńska",
+      "avatar": "",
+      "rating": 5,
+      "text": "Serdecznie polecam :) wszystko funkcjonuje bez zarzutu, chłopaki ogarniają temat :)",
+      "date": "2026-06-25"
+    },
+    {
+      "author": "Kwiaty Róże",
+      "avatar": "",
+      "rating": 5,
+      "text": "Gorąco polecam Dmuchane Atrakcje. Dmuchaniec zadbany, czyściutki, sprawił dzieciom dużo frajdy. A, i obsługa przesympatyczna :)",
+      "date": "2026-06-25"
+    },
+    {
+      "author": "Kasia Gawrońska",
+      "avatar": "",
+      "rating": 5,
+      "text": "Serdecznie polecam Dmuchane Atrakcje 😊 Dmuchaniec czysty, widać, że nowy. Sprawił dzieciom podczas imprezy ogromną radość. Kontakt z właścicielem - wzorowy. Daję 5⭐",
+      "date": "2026-06-24"
+    },
+    {
+      "author": "Karolina Glazna",
+      "avatar": "",
+      "rating": 5,
+      "text": "Gorąco polecam Dmuchane Atrakcje! ♥️ Dmuchaniec fantastycznie przygotowany do zabawy, czysty, zadbany, same plusy! Dodatkowo kontakt z właścicielem bardzo przyjazny! 🙂",
+      "date": "2026-06-24"
+    },
+    {
+      "author": "Małgorzata Modrzejewska",
+      "avatar": "",
+      "rating": 5,
+      "text": "Bardzo serdecznie polecam! Dmuchańce nowe, czyste, zadbane. Panowie kontaktowi, bardzo mili i pomocni, stale poszerzają swoją ofertę dmuchanych atrakcji. Korzystałam już kilka razy i z pewnością jeszcze niejedne urodziny spędzimy wynajmując dmuchańce od Panów!",
+      "date": "2026-06-24"
+    },
+    {
+      "author": "Paulina Białkowska",
+      "avatar": "",
+      "rating": 5,
+      "text": "Jestem mega zadowolona z dmuchańca. Wszystko rozłożone na czas, dmuchańce bardzo dobrej jakości, kolorowe - nie wyblaknięte, kontakt z właścicielem bardzo dobry, cena zadowalająca - opinia 5/5. Serdecznie polecam.",
+      "date": "2026-06-22"
+    },
+    {
+      "author": "piotr łuczak",
+      "avatar": "",
+      "rating": 5,
+      "text": "Nie ma co się rozpisywać są najlepsi w okolicy, młodzi prężni ludzie korzystaliśmy w maju na Komunii córki radości dzieci bezcenna pozdrawiamy mega serdecznie i z pewnością do Państwa wrócimy i macie naszą pełną rekomendację 👍👍👍🔥🔥🔥💪🏻💪🏻💪🏻",
+      "date": "2026-06-22"
+    },
+    {
+      "author": "Paulina",
+      "avatar": "",
+      "rating": 5,
+      "text": "Jestem bardzo zadowolona z wynajmu dmuchańca. Wszystko zostało profesjonalnie przygotowane i bezpiecznie zamontowane. Sprzęt był czysty, zadbany i w pełni sprawny, a dzieci bawiły się świetnie przez cały czas. Obsługa była miła, punktualna i pomocna na każdym etapie. Zdecydowanie polecam i na pewno skorzystam ponownie!",
+      "date": "2026-06-21"
+    },
+    {
+      "author": "Agnieszka Ptasińska",
+      "avatar": "",
+      "rating": 5,
+      "text": "Bardzo polecam tę firmę - przesympatyczna obsługa, dmuchaniec nowiutki, czysty. Dziękuję za moc zabawy na dmuchańcu!",
+      "date": "2026-06-21"
+    },
+    {
+      "author": "gruzin30",
+      "avatar": "",
+      "rating": 5,
+      "text": "Serdecznie polecam Dmuchane Atrakcje Dmuchańce Łowicz! Profesjonalna obsługa, świetny kontakt i punktualność na najwyższym poziomie. Dmuchańce były czyste, bezpieczne i sprawiły dzieciom ogromną radość. Atrakcje cieszyły się zainteresowaniem przez całą imprezę, a organizacja przebiegła sprawnie i bezproblemowo. Widać duże zaangażowanie oraz dbałość o zadowolenie klientów. Z pewnością skorzystamy ponownie i będziemy polecać innym!",
+      "date": "2026-06-18"
+    }
+  ]
+}
